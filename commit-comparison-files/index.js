@@ -50,6 +50,4 @@ async function run() {
   }
 }
 
-if (github.context.eventName === 'pull_request') {
-  run();
-}
+run();
