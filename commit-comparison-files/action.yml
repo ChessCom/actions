@@ -13,3 +13,6 @@ inputs:
   headRef:
     required: true
     description: 'Head ref to make comparison from'
+runs:
+  using: 'node12'
+  main: 'index.js'
