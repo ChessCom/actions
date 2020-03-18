@@ -9,7 +9,7 @@ inputs:
     description: 'GITHUB_TOKEN required for fetches commit comparison via REST API'
   baseRef:
     required: true
-    description: 'Base ref to make comparison from (ex. ${{ github.base_ref }})'
+    description: 'Base ref to make comparison from'
   headRef:
     required: true
-    description: 'Head ref to make comparison from (ex. ${{ github.head_ref }})'
+    description: 'Head ref to make comparison from'
